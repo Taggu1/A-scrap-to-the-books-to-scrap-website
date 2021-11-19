@@ -4,7 +4,6 @@ ui_text = {
     """
     ,"ui2":"""
     What do you Want:
-    0 - All books
     1 - Travel , 2 - Mystery , 3 - Historical Fiction , 4 - Sequential Art
     5 - Classics , 6 - Philosophy , 7 - Romance , 8 - Womens Fiction
     9 - Fiction , 10 - Childrens , 11 - Religion , 12 - Nonfiction
