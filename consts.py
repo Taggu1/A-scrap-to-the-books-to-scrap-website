@@ -22,7 +22,7 @@ ui_text = {
 }
 
 geners  = {
-    "1": "travel_2" , "2":"mystery_3" , "3": "historical-fiction_4" , "4": "sequential-art",
+    "1": "travel_2" , "2":"mystery_3" , "3": "historical-fiction_4" , "4": "sequential-art_5",
     "5": "classics_6" ,"6": "philosophy_7" ,"7": "romance_8","8":"womens-fiction_9",
     "9": "fiction_10" , "10": "childrens_11" , "11": "religio_12" ,"12":"nonfiction_13",
     "13": "music_14" , "14":"default_15" , "16": "science-fiction_16" , "17": "sports-and-games_17",
@@ -32,7 +32,7 @@ geners  = {
     "31": "horror_31" , "32": "history_33" , "33": "food-and-drink_33","34": "christian-fiction_34",
     "35": "business_35" , "36": "biography_36" , "37": "thriller_37" , "38": "contemporary_38",
     "39": "spirituality_39" , "40": "academic_40" , "41": "self-help_41" , "42": "historical_42",
-    "43": "christian_43" , "44": "suspense_44" , "45": "short-stories_45" , "46": "novels_47",
+    "43": "christian_43" , "44": "suspense_44" , "45": "short-stories_45" , "46": "novels_46",
     "47": "health_47" , "48": "politics_48" , "49": "cultural_49" , "50": "erotica_50",
     "51": "crime_51"
 }
