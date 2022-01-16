@@ -1,6 +1,17 @@
 ui_text = {
     "ui1":"""
-    Welcome To the Scraper !!!
+     _______________________________
+    :                               :
+    :       Welcome To The          :
+    :       books to scrap          :
+    :          scraper              :
+    :                               :
+    :                               :
+    :    Press any key to start.... : 
+    :                               :
+    :                               :
+    :                               :
+     ________________________________
     """
     ,"ui2":"""
     What do you Want:
@@ -16,8 +27,7 @@ ui_text = {
     39 - Spirituality , 40 - Academic , 41 - Self Help , 42 - Historical
     43 - Christian , 44 - Suspense , 45 - Short Stories , 46 - Novels
     47 - Health , 48 - Politics , 49 - Cultural , 50 - Erotica
-    51 - Crime (enter the number):  
-    """,
+    51 - Crime (enter the number):  """,
     "ui3": "done"
 }
 
