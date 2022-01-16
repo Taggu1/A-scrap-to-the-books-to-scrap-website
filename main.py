@@ -1,7 +1,7 @@
 from consts import *
 import requests
 from bs4 import BeautifulSoup
-
+import os
      
 
 def brain(gen_name): 
@@ -32,12 +32,15 @@ def brain(gen_name):
     if titles == []:
         print("No books detected")
         return
+    
+    print("\n"+ "=========================================================================================")
 
     for title_n in range(number_of_books_in_page):
         print(f"Book: {title_n} name: {titles[title_n]} ")
 
     user_book_choice = int(input("Choose a book number: "))
-
+    
+    clearConsole()
     if user_book_choice <= number_of_books_in_page:
         link = f"https://books.toscrape.com/catalogue/{links[user_book_choice]}"
         r = requests.get(link)
@@ -48,16 +51,23 @@ def brain(gen_name):
         Link: {link}
         """)
 
+def clearConsole():
+    command = 'clear'
+    if os.name in ('nt', 'dos'):
+        command = 'cls'
+    os.system(command)
 
 
 def main():
     print(ui_text["ui1"])
+    input("")
+    clearConsole()
     user_genere_number = input(ui_text["ui2"])
     if user_genere_number not in geners.keys():
         print("Wrong Choice")
         return
     user_genere = geners[user_genere_number]
-    
+    clearConsole()
     brain(user_genere)
 
     print(ui_text["ui3"])
